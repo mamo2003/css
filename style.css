@@ -51,13 +51,15 @@
     grid-template-rows: 1fr 1fr 3fr 1fr;
     gap: 3px 3px;
     grid-auto-flow: row;
-  }
+}
 div :not(.container){border: 2px solid rgb(213, 90, 90);
-max-height: max-content;}
-  .nav-bar { grid-area: 2 / 1 / 3 / 2; }
-  .navbar { grid-area: 2 / 1 / 4 / 2; }
-  .ads { grid-area: 2 / 3 / 4 / 4; }
-  .cabecera { grid-area: 1 / 1 / 2 / 4; }
-  .pie-de-pagina { grid-area: 4 / 1 / 5 / 4; }
-  .secciones { grid-area: 3 / 2 / 4 / 3; }
-  .productos { grid-area: 2 / 2 / 3 / 3; }
+}
+.navbar { grid-area: 2 / 1 / 4 / 2; 
+height: 450px;}
+.ads { grid-area: 2 / 3 / 4 / 4; }
+.cabecera { grid-area: 1 / 1 / 2 / 4;
+height: 100px; }
+.pie-de-pagina { grid-area: 4 / 1 / 5 / 4; 
+height: 100px;}
+.secciones { grid-area: 3 / 2 / 4 / 3; }
+.productos { grid-area: 2 / 2 / 3 / 3; }
